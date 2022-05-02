@@ -13,7 +13,8 @@ NOTE:
 
 0. Data Preparation
 For SLURP,
-The preprocessed dataset is located in `datasets/slurp/slurp_with_oracle_test.json`.
+The preprocessed dataset is `datasets/slurp/slurp_with_oracle_test.json`.
+The preprocessed dataset without filtering and separating test sets is `datasets/slurp/slurp.json`
 The data preprocessing includes multiple operations including:
     - Derive ASR hypothesis
     - Generate phoneme sequences by `phonemizer`
