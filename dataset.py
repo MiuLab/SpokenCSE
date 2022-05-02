@@ -131,14 +131,18 @@ class ContrastiveDataset(Dataset):
         self.text_examples, self.phone_examples, self.combined_examples = get_contrastive_examples(
             tokenizer, self.text, self.golden_text, self.phoneme_text, self.golden_phoneme_text, max_length=max_length)
 
+        print('number of data: text {}, phoneme {}, combined {}'.format(
+            len(self.text_examples), len(self.phone_examples), len(self.combined_examples)
+        )
         if phoneme_only:
+            print('only using phoneme data')
             self.examples = self.phone_examples
         elif use_phoneme:
+            print('using all data')
             self.examples = self.text_examples + self.phone_examples + self.combined_examples
         else:
+            print('only using text data')
             self.examples = self.text_examples
-        print(len(self.text_examples), len(self.phone_examples), len(self.combined_examples))
-        print(len(self.examples))
 
     def __len__(self):
         return len(self.examples)
@@ -182,14 +186,18 @@ class PhonemeBERTContrastiveDataset(Dataset):
         self.text_examples, self.phone_examples, self.combined_examples = get_contrastive_examples(
             tokenizer, self.text, self.golden_text, self.phoneme_text, self.golden_phoneme_text, max_length=max_length)
 
+        print('number of data: text {}, phoneme {}, combined {}'.format(
+            len(self.text_examples), len(self.phone_examples), len(self.combined_examples)
+        )
         if phoneme_only:
+            print('only using phoneme data')
             self.examples = self.phone_examples
         elif use_phoneme:
+            print('using all data')
             self.examples = self.text_examples + self.phone_examples + self.combined_examples
         else:
+            print('only using text data')
             self.examples = self.text_examples
-        print(len(self.text_examples), len(self.phone_examples), len(self.combined_examples))
-        print(len(self.examples))
 
     def __len__(self):
         return len(self.examples)
