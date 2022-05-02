@@ -35,11 +35,11 @@ python contrastive_pretraining.py
 
 2. Fine-tuning
 ```
-python train.py
+python finetune_on_slurp.py
 ```
 or on the phonemebert datasets:
 ```
-python train_on_phonemebert.py
+python finetune_on_phonemebert.py
 ```
 
 Training and evaluation are both included in these two scripts.
