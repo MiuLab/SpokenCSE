@@ -1,5 +1,4 @@
 # Contrastive Learning for Improving ASR Robustness in Spoken Language Understanding
-Source code for Contrastive Learning for Improving ASR Robustness in Spoken Language Understanding.
 Paper link: https://arxiv.org/abs/2205.00693 
 
 ## Requirements
@@ -49,12 +48,10 @@ Adjust the arguments as you need.
 ## Reference
 Please cite the following paper:
 ```
-@misc{chang2022contrastive,
-      title={Contrastive Learning for Improving ASR Robustness in Spoken Language Understanding}, 
-      author={Ya-Hsin Chang and Yun-Nung Chen},
-      year={2022},
-      eprint={2205.00693},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@article{chang2022contrastive,
+  title={Contrastive Learning for Improving ASR Robustness in Spoken Language Understanding},
+  author={Chang, Ya-Hsin and Chen, Yun-Nung},
+  journal={arXiv preprint arXiv:2205.00693},
+  year={2022}
 }
 ```
