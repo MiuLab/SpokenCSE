@@ -1,5 +1,9 @@
 # Contrastive Learning for Improving ASR Robustness in Spoken Language Understanding
-Paper link: https://arxiv.org/abs/2205.00693 
+- Paper link: https://arxiv.org/abs/2205.00693 
+
+![image](https://user-images.githubusercontent.com/2268109/169679335-6cf6f520-cf86-499f-9682-71484a394e55.png)
+
+
 
 ## Requirements
 ```
