@@ -196,9 +196,6 @@ def parse_args():
         "--use_phoneme", action='store_true', help="use phoneme + text sequence"
     )
     parser.add_argument(
-        "--input_mask_ratio", default=0, type=float, help="mlm ratio when training"
-    )
-    parser.add_argument(
         "--dropout", default=0.1, type=float, help="model hidden dropout"
     )
     parser.add_argument(

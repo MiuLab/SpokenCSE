@@ -248,7 +248,7 @@ if __name__ == "__main__":
             train_dataset=train_dataset,
             eval_dataset=eval_dataset,
             compute_metrics=compute_metrics,
-            callbacks=[EarlyStoppingCallback(early_stopping_patience=args.patience)]
+            callbacks=[EarlyStoppingCallback(early_stopping_patience=args.patience)],
         )
         if args.use_pseudo:
             trainer.add_callback(UpdatePseudoLabelCallback(trainer))
