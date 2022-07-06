@@ -1,4 +1,4 @@
-transformers==4.18.0
+transformers==4.15.0
 datasets==2.1.0
 torch==1.11.0
 jiwer==2.3.0
