@@ -133,7 +133,7 @@ class ContrastiveDataset(Dataset):
 
         print('number of data: text {}, phoneme {}, combined {}'.format(
             len(self.text_examples), len(self.phone_examples), len(self.combined_examples)
-        )
+        ))
         if phoneme_only:
             print('only using phoneme data')
             self.examples = self.phone_examples
@@ -188,7 +188,7 @@ class PhonemeBERTContrastiveDataset(Dataset):
 
         print('number of data: text {}, phoneme {}, combined {}'.format(
             len(self.text_examples), len(self.phone_examples), len(self.combined_examples)
-        )
+        ))
         if phoneme_only:
             print('only using phoneme data')
             self.examples = self.phone_examples
