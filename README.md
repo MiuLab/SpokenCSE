@@ -1,5 +1,5 @@
 # Contrastive Learning for Improving ASR Robustness in Spoken Language Understanding
-- Paper link: https://www.isca-speech.org/archive/pdfs/interspeech_2022/chang22c_interspeech.pdf
+- [INTERSPEECH 2022 Paper](https://www.isca-speech.org/archive/pdfs/interspeech_2022/chang22c_interspeech.pdf)
 
 ![image](https://user-images.githubusercontent.com/2268109/169679335-6cf6f520-cf86-499f-9682-71484a394e55.png)
 
