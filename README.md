@@ -1,5 +1,5 @@
 # Contrastive Learning for Improving ASR Robustness in Spoken Language Understanding
-- Paper link: https://arxiv.org/abs/2205.00693 
+- Paper link: https://www.isca-speech.org/archive/pdfs/interspeech_2022/chang22c_interspeech.pdf
 
 ![image](https://user-images.githubusercontent.com/2268109/169679335-6cf6f520-cf86-499f-9682-71484a394e55.png)
 
@@ -52,10 +52,11 @@ Adjust the arguments as you need.
 ## Reference
 Please cite the following paper:
 ```
-@article{chang2022contrastive,
+@inproceedings{chang2022contrastive,
   title={Contrastive Learning for Improving ASR Robustness in Spoken Language Understanding},
   author={Chang, Ya-Hsin and Chen, Yun-Nung},
-  journal={arXiv preprint arXiv:2205.00693},
+  booktitle={The 23rd Annual Meeting of the International Speech Communication Association (INTERSPEECH)},
+  pages={3458-3462},
   year={2022}
 }
 ```
